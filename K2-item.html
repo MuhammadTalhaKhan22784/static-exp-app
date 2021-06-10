@@ -1,0 +1,786 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <!-- Pushy CSS -->
+    <link rel="stylesheet" href="css/pushy.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+    <!-- custom-navbar css link -->
+    <link rel="stylesheet" href="./css/custom-navbar.css">
+    <!-- K2-listing css link -->
+    <link rel="stylesheet" href="./css/K2-listing.css">
+    <!-- K2-item css link -->
+    <link rel="stylesheet" href="./css/K2-item.css">
+
+    <!-- font awesome Link -->
+    <link rel="stylesheet" href="./icons/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="./css/footer-social-icons.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body id="main">
+
+
+    <a href="#main" class="goto_top">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+
+
+    <div class="container-fluid ">
+        <div class="row " id="main">
+
+
+            <!-- Navbar Starts From Here -->
+
+            <div class="col-sm-3 col-md-3 col-lg-2 col-12" id="navbar">
+
+                <img src="https://demo.smartaddons.com/templates/joomla3/sj-expnews/templates/sj_expnews/images/presets/preset1/logo.png"
+                    alt="Image Not Found" class="img-fluid">
+                <!-- Site Overlay -->
+                <div class="site-overlay"></div>
+
+                <!-- Your Content -->
+                <div class="justify-content-start py-1 mb-3 menu-text">
+                    <i class="fa fa-home mr-3" aria-hidden="true"></i> Home
+                </div>
+
+                <div class="justify-content-start py-1 mb-3 menu-text position-relative" id="first-menu">
+                    <i class="fa fa-indent mr-3" aria-hidden="true"></i> Pages
+
+                    <div class="sideflow-menu" id="first-item">
+                        <div class="sideflow-item">About Us</div>
+                        <div class="sideflow-item">Contact Us</div>
+                        <div class="sideflow-item">404 Page</div>
+                        <div class="sideflow-item">Coming Soon</div>
+                    </div>
+
+
+                </div>
+
+                <div class="justify-content-start py-1 mb-3 menu-text">
+                    <i class="fa fa-chart-pie mr-3" aria-hidden="true"></i> Portfolio
+                </div>
+
+                <div class="k2_div justify-content-start py-1 mb-3 menu-text position-relative" id="first-menu">
+                    <i class="fa fa-newspaper mr-3" aria-hidden="true"></i> K2
+
+                    <div class="sideflow-menu" id="first-item">
+                        <a href="./K2-listing.html" class="sideflow-item">K2 Listing</a>
+                        <a href="./K2-grid.html" class="sideflow-item">K2 Grid</a>
+                        <a href="./K2-item.html" class="sideflow-item">K2 Item</a>
+                        <a href="#" class="sideflow-item">K2 Tag</a>
+                    </div>
+
+                </div>
+
+                <div class=" justify-content-start py-1 mb-3 menu-text position-relative" id="first-menu">
+                    <i class="fa fa-edit mr-3" aria-hidden="true"></i> Blog
+
+                    <div class="sideflow-menu" id="first-item">
+                        <a href="./Blog-with-right-sidebar.html" class="sideflow-item">Blog With Right Sidebar</a>
+                        <a href="#" class="sideflow-item">Blog With Left Sidebar</a>
+                        <a href="#" class="sideflow-item">Archive Category Blog</a>
+
+                    </div>
+
+                </div>
+
+                <div class=" justify-content-start py-1 mb-3 menu-text">
+                    <i class="fa fa-paint-brush mr-3" aria-hidden="true"></i> Post Formats
+                </div>
+
+                <div class=" justify-content-start py-1 mb-3 menu-text position-relative" id="first-menu">
+                    <i class="fab fa-joomla mr-3" aria-hidden="true"></i> Joomla
+
+                    <div class="sideflow-menu" id="first-item">
+                        <div class="sideflow-item">Content Component</div>
+                    </div>
+
+                    <div class="sideflow-menu" id="first-item">
+                        <div class="sideflow-item">Content Component</div>
+                    </div>
+
+                </div>
+
+                <div class="py-1" id="icons">
+                    <i class="fab fa-facebook mr-3" aria-hidden="true"></i>
+                    <i class="fab fa-twitter mr-3" aria-hidden="true"></i>
+                    <i class="fab fa-youtube mr-3" aria-hidden="true"></i>
+                    <i class="fab fa-linkedin mr-3" aria-hidden="true"></i>
+                    <i class="fab fa-google-plus mr-3" aria-hidden="true"></i>
+                </div>
+
+                <!--Navbar Ends From Here -->
+            </div>
+
+
+
+            <div id="container" class="mb_nav">
+                <button class="menu-btn" id="black-navbar-button">&#9776;</button>
+            </div>
+            <div class="col-sm-9 col-md-9 col-lg-10 col-12 main_div_content" id="content">
+                <!-- Main Container Starts Here ============================================================= -->
+                <div class="main_custom">
+                    <!-- Custom Navbar -->
+                    <div class="custom_navbar">
+                        <div class="custom_navbar_hamurger" onclick="toggleCustomNavbarList()">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="black_screen"></div>
+                        <ul class="custom_navbar_list">
+                            <li><a href="#">top stories</a></li>
+                            <li><a href="#">north america</a></li>
+                            <li><a href="#">south america</a></li>
+                            <li><a href="#">africa</a></li>
+                            <li><a href="#">Europe</a></li>
+                            <li><a href="#">asia pacific</a></li>
+                            <li><a href="#">australia</a></li>
+                            <li onclick="close_custom_nav_btn()" class="close_custom_nav_btn"><i class="fa fa-times"
+                                    aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                        <div class="custom_navbar_right">
+                            <div onclick="custom_navbar_input_toggle_btn()" class="custom_navbar_input_toggle_btn">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                            <div class="custom_navbar_input">
+                                <input placeholder="Enter your search..." type="text" name="" id="custom_navbar_input">
+                                <label class="custom_navbar_input_label" for="custom_navbar_input">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </label>
+                            </div>
+                            <div class="custom_navbar_security">
+                                <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                            </div>
+                            <div class="c_n_f_p">
+                                <div class="custom_navbar_flag">
+                                    <img onclick="toggleDropdown()" src="./images/en.gif" alt="" />
+                                </div>
+                                <div class="custom_navbar_flag_dropdown">
+                                    <div><a href="#"><img src="./images/ar.gif" alt=""> arabic</a></div>
+                                    <div><a href="#"><img src="./images/en.gif" alt=""> english (UK)</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pushy Menu -->
+                    <nav class="pushy pushy-left" data-focus="#second-link">
+                        <div class="pushy-content">
+                            <ul>
+                                <li class="pushy-submenu">
+                                <li class="pushy-link"><a href="#">Home</a></li>
+                                <ul>
+                                    <li class="pushy-submenu">
+                                        <button>Pages</button>
+                                        <ul>
+                                            <li class="pushy-link"><a href="#">About Us</a></li>
+                                            <li class="pushy-link"><a href="#">Contact Us</a></li>
+                                            <li class="pushy-link"><a href="#">404 Page</a></li>
+                                            <li class="pushy-link"><a href="#">Coming Soon....</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="pushy-link"><a href="#">Portfolio</a></li>
+
+                                    <li class="pushy-submenu">
+                                        <button>K2</button>
+                                        <ul>
+                                            <li class="pushy-link"><a href="./K2-listing.html">K2 Listing</a></li>
+                                            <li class="pushy-submenu">
+                                                <button href="#">K2 Grid</button>
+                                                <ul>
+                                                    <li class="pushy-link"><a href="./K2-grid.html">Grid 2 Columns</a>
+                                                    </li>
+                                                    <li class="pushy-link"><a href="./K2-item.html">Grid 3 Columns</a>
+                                                    </li>
+                                                    <li class="pushy-link"><a href="#">Grid 4 Columns</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li class="pushy-link"><a href="#">K2 Item</a></li>
+                                            <li class="pushy-link"><a href="#">K2 Tag</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                </ul>
+                                </li>
+
+
+                                <li class="pushy-submenu">
+                                    <button>Blog</button>
+                                    <ul>
+                                        <li class="pushy-link"><a href="./Blog-with-right-sidebar.html">Blog With Right
+                                                Sidebar</a></li>
+                                        <li class="pushy-link"><a href="#">Blog With LEft Sidebar</a></li>
+                                        <li class="pushy-link"><a href="#">Article Category Blog</a></li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="pushy-submenu">
+                                    <button>Post Formats</button>
+                                    <ul>
+                                        <li class="pushy-link"><a href="#">Standard Post Formats</a></li>
+                                        <li class="pushy-link"><a href="#">VideoPost Formats</a></li>
+                                        <li class="pushy-link"><a href="#">Audio Post Formats</a></li>
+                                        <li class="pushy-link"><a href="#">Gallery Post Formats</a></li>
+                                        <li class="pushy-link"><a href="#">Link Post Formats</a></li>
+                                        <li class="pushy-link"><a href="#">Quote Post Formats</a></li>
+                                        <li class="pushy-link"><a href="#">Status Post Formats</a></li>
+                                        <li class="pushy-link"><a href="#">Image Post Formats</a></li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="pushy-submenu">
+                                    <button>Joomla</button>
+                                    <ul>
+                                        <li class="pushy-submenu">
+                                            <button href="#">Content Component</button>
+                                            <ul>
+                                                <li class="pushy-link"><a href="#">Single Article</a></li>
+                                                <li class="pushy-link"><a href="#">Article Category Blog</a></li>
+                                                <li class="pushy-link"><a href="#">Article Category List</a></li>
+                                                <li class="pushy-link"><a href="#">Featured Articles</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="pushy-submenu">
+                                            <button href="#">User Component</button>
+                                            <ul>
+                                                <li class="pushy-link"><a href="#">Login Form</a></li>
+                                                <li class="pushy-link"><a href="#">User Profile</a></li>
+                                                <li class="pushy-link"><a href="#">Edit User Profile</a></li>
+                                                <li class="pushy-link"><a href="#">Registration</a></li>
+                                            </ul>
+                                        </li>
+
+
+                                        <li class="pushy-submenu">
+                                            <button href="#">Other Component</button>
+                                            <ul>
+                                                <li class="pushy-link"><a href="#">News Feed Component</a></li>
+                                                <li class="pushy-link"><a href="#">Search Componrnts</a></li>
+                                                <li class="pushy-link"><a href="#">Smart Search</a></li>
+                                                <li class="pushy-link"><a href="#">Search</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+
+
+
+                    <div class="bread_crump_section">
+                        <h2 class="bread_crump_section_title">K2 Item</h2>
+                        <div class="bread_crump">
+                            <a href="./index.html">Home</a>
+                            <span>/</span>
+                            <a href="#">K2</a>
+                            <span>/</span>
+                            <a href="./K2-item.html">K2 item</a>
+                        </div>
+                    </div>
+
+
+                    <div class="k2_main_content">
+
+
+                        <div class="k2_left_content k2-item-main">
+
+                            <img class="k2_item_hero_img" src="./images/card2.jpg" alt="">
+
+                            <div class="k2_item_content">
+                                <p class="k2_item_title">
+                                    Back And Now It's The Thunder's Turn To Counter
+                                </p>
+                                <p class="k2_item_subtitle">
+                                    By / <span class="k2_item_trending">Trending Posts</span> / Thursday, 20 April 2017
+                                    10:07
+                                </p>
+                                <p class="k2_item_disc_1">
+                                    As Steve Kerr admitted before the Warriors' 118-91 Game 2 victory over the Oklahoma
+                                    City Thunder on Wednesday to tie the Western Conference Finals at 1-1, there's a
+                                    "fine line" between good shots and bad shots for the Warriors. In losses such as
+                                    Game 1, the Warriors' shot selection tends to trend toward the latter (bad shots).
+                                    In Game 2, their shot distribution was more of the former (good ones).
+                                </p>
+                                <p class="k2_item_disc_2">
+                                    They never said winning was easy. Some people can’t handle success, I can. I’m
+                                    giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. How’s
+                                    business? Boomin. Egg whites, turkey sausage, wheat toast, water. Of course they
+                                    don’t want us to eat our breakfast, so we are going to enjoy our b
+                                </p>
+                                <p class="k2_item_disc_2">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error
+                                    sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                    ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                                </p>
+                                <p class="k2_item_disc_3">
+                                    Lorem Khaled Ipsum is a major key to success. Eliptical talk. The key to more
+                                    success is to get a massage once a week, very important, major key, cloth talk.
+                                    Mogul talk. Cloth talk. I’m giving you cloth talk, cloth. Special cloth alert, cut
+                                    from a special cloth. In life you have to take the trash out, if you have trash in
+                                    your life, take it out, throw it away, get rid of it, major key. Surround yourself
+                                    with angels. The key to more success is to have a lot of pillows. Life is what you
+                                    make it, so let’s make it.
+                                </p>
+
+                                <img style="margin-bottom: 50px;" class="k2_item_hero_img" src="./images/buildings.jpg"
+                                    alt="">
+
+                                <p class="k2_item_disc_2">
+                                    They key is to have every key, the key to open every door. We don’t see them, we
+                                    will never see them. To be successful you’ve got to work hard, to make history,
+                                    simple, you’ve got to make it. They never said winning was easy. Some people can’t
+                                    handle success, I can. I’m giving you cloth talk, cloth. Special cloth alert, cut
+                                    from a special cloth. How’s business? Boomin. Egg whites, turkey sausage, wheat
+                                    toast, water. Of course they don’t want us to eat our breakfast, so we are going to
+                                    enjoy our breakfast.
+                                </p>
+                                <p class="k2_item_disc_2">
+                                    Let’s see what Chef Dee got that they don’t want us to eat. The weather is amazing,
+                                    walk with me through the pathway of more success. Take this journey with me, Lion!
+                                    We the best. The key to more success is to get a massage once a week, very
+                                    important, major key, cloth talk. The first of the month is coming, we have to get
+                                    money, we have no choice. It cost money to eat and they don’t want you to eat.They
+                                    never said winning was easy. Some people can’t handle success, I can. I’m giving you
+                                    cloth talk, cloth. Special cloth alert, cut from a special cloth. How’s business?
+                                    Boomin. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us
+                                    to eat our breakfast, so we are going to enjoy our breakfast.
+                                </p>
+
+                                <blockquote class="quote">
+                                    Another one. It’s important to use cocoa butter. It’s the key to more success, why
+                                    not live smooth? Why live rough? Another one. Give thanks to the most high. They
+                                    don’t want us to win. The ladies always say Khaled you smell good, I use no cologne.
+                                    Cocoa butter is the key. Congratulations, you played yourself.
+                                </blockquote>
+                                <p class="quote_author">By Machael Levis</p>
+
+
+                                <p class="k2_item_disc_2">
+                                    The other day the grass was brown, now it’s green because I ain’t give up. Never
+                                    surrender. Cloth talk. Find peace, life is like a water fall, you’ve gotta flow.
+                                    Mogul talk. The first of the month is coming, we have to get money, we have no
+                                    choice. It cost money to eat and they don’t want you to eat. You should never
+                                    complain, complaining is a weak emotion, you got life, we breathing, we blessed. The
+                                    first of the month is coming, we have to get money, we have no choice. It cost money
+                                    to eat and they don’t want you to eat.
+
+
+                                </p>
+
+
+
+                                <div class="k2_item_tags">
+                                    <p class="k2_item_tags_title">Tags <a href="#">Architects</a></p>
+                                    <div class="k2_item_tags_btns">
+                                        <button><i class="fab fa-facebook-f"></i>
+                                            Facebook
+                                        </button>
+                                        <button style="background-color: #fb7171;"><i class="fab fa-google-plus-g"></i>
+                                            google plus
+                                        </button>
+                                        <button style="background-color: #36b9ff;">
+                                            <i class="fab fa-twitter"></i>
+                                            twitter
+                                        </button>
+                                        <button style="background-color: #0077b5;">
+                                            <i class="fab fa-linkedin-in"></i>
+                                            linkedin
+                                        </button>
+                                        <button style="background-color: #b7071b;">
+                                            <i class="fab fa-pinterest-p"></i>
+
+                                            pinterest
+                                        </button>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="k2_item_author">
+                                    <p class="k2_item_author_title">Author</p>
+                                    <div class="k2_item_author_main">
+                                        <img src="./images/user.png" alt="">
+                                        <p class="author_content">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                            aliquip</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="k2_related_items">
+                                    <p class="k2_item_author_title">RELATED ITEMS</p>
+                                    <div class="k2_related_items_cards">
+                                        <div class="k2_related_items_card">
+                                            <img src="./images/whats-hot.jpg" alt="">
+                                            <a class="k2_related_items_card_title" href="#">What's Hot</a>
+                                            <a class="k2_related_items_card_subtitle" href="#">Ut Enim Ad Minim Veniam,
+                                                Quis Nostrud</a>
+                                        </div>
+                                        <div class="k2_related_items_card">
+                                            <img src="./images/k2-1.jpg" alt="">
+                                            <a class="k2_related_items_card_title" href="#">What's Hot</a>
+                                            <a class="k2_related_items_card_subtitle" href="#">8 Magazine Blog News
+                                                Premium WordPress</a>
+                                        </div>
+                                        <div class="k2_related_items_card">
+                                            <img src="./images/9ecd376e5371efaef9aad9bc9143aed8_M.jpg" alt="">
+                                            <a class="k2_related_items_card_title" href="#">What's Hot</a>
+                                            <a class="k2_related_items_card_subtitle" href="#">Egyptair Flight Crashes
+                                                With 66 People On Board</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="k2_item_comments">
+                                    <div class="k2_item_author_title">COMMENT</div>
+                                    <div class="k2_item_comments_cards">
+                                        <div class="k2_item_comments_card">
+                                            <img src="./images/user.png" alt="">
+                                            <div class="k2_item_comments_card_content">
+                                                <p>demo <span>24 May 2017</span></p>
+                                                <p>great!</p>
+                                            </div>
+                                        </div>
+                                        <div class="k2_item_comments_card">
+                                            <img src="./images/user.png" alt="">
+                                            <div class="k2_item_comments_card_content">
+                                                <p>admin <span>24 May 2017</span></p>
+                                                <p>Lorem Ipsum Dolor sit amet, consectetur
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="k2_item_comments_card">
+                                            <img src="./images/user.png" alt="">
+                                            <div class="k2_item_comments_card_content">
+                                                <p>admin <span>24 May 2017</span></p>
+                                                <p>Lorem Ipsum Dolor sit amet, consectetur
+
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="k2_item_comments_card">
+                                            <img src="./images/user.png" alt="">
+                                            <div class="k2_item_comments_card_content">
+                                                <p>admin <span>24 May 2017</span></p>
+                                                <p>Oh my god. It very good!
+
+                                                    !</p>
+                                            </div>
+                                        </div>
+                                        <div class="k2_item_comments_card">
+                                            <img src="./images/user.png" alt="">
+                                            <div class="k2_item_comments_card_content">
+                                                <p>admin <span>24 May 2017</span></p>
+                                                <p>Very good!</p>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                                <div class="k2_item_login_to_comment">
+                                    Login To Post Comment
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+                        <div class="k2_right_content">
+                            <div class="k2_right_header">
+                                <button class="k2_header_btn active">Popular</button>
+                                <button class="k2_header_btn">Comments</button>
+                            </div>
+                            <div class="k2_menu">
+                                <div class="k2_menu_item active">
+
+
+                                    <div class="k2_menu_item_card">
+                                        <img src="./images/food-5.jpg" alt="">
+                                        <div class="k2_menu_item_card_content">
+                                            <a href="#" class="k2_menu_item_card_content_title">Ut Enim Ad Minim Veniam,
+                                                Quis Nostrud</a>
+                                            <p class="menu_clock"><i class="far fa-clock"></i>May 25 2017</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="k2_menu_item_card">
+                                        <img src="./images/6f43b5263fbba79c5962514b85d34738_XS.jpg" alt="">
+                                        <div class="k2_menu_item_card_content">
+                                            <a href="#" class="k2_menu_item_card_content_title">8 Magazine Blog News
+                                                Premium WordPress</a>
+                                            <p class="menu_clock"><i class="far fa-clock"></i>May 25 2017</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="k2_menu_item_card">
+                                        <img src="./images/ccb4e23c8aa216f1e96d31ab209c036b_XS.jpg" alt="">
+                                        <div class="k2_menu_item_card_content">
+                                            <a href="#" class="k2_menu_item_card_content_title">Production Design
+                                                Nomination</a>
+                                            <p class="menu_clock"><i class="far fa-clock"></i>May 25 2017</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="k2_menu_item_card">
+                                        <img src="./images/life.jpg" alt="">
+                                        <div class="k2_menu_item_card_content">
+                                            <a href="#" class="k2_menu_item_card_content_title">Oklahoma City
+                                                Thunder</a>
+                                            <p class="menu_clock"><i class="far fa-clock"></i>May 25 2017</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="k2_menu_item_card">
+                                        <img src="./images/6f43b5263fbba79c5962514b85d34738_XS.jpg" alt="">
+                                        <div class="k2_menu_item_card_content">
+                                            <a href="#" class="k2_menu_item_card_content_title">I Take Better Pictures
+                                                Caffeinated.</a>
+                                            <p class="menu_clock"><i class="far fa-clock"></i>May 25 2017</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="k2_menu_item">
+
+
+                                    <div class="k2_menu_item_card">
+                                        <div>
+
+                                            <div class="k2_menu_box">1</div>
+                                        </div>
+                                        <div class="k2_menu_item_card_content">
+                                            <a href="#" class="k2_menu_item_card_content_title">great!</a>
+                                            <p class="menu_clock">demo on Wednesday, 24 May 2017 01:47</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="k2_menu_item_card">
+                                        <div>
+
+                                            <div class="k2_menu_box">2</div>
+                                        </div>
+                                        <div class="k2_menu_item_card_content">
+                                            <a href="#" class="k2_menu_item_card_content_title">
+                                                Lorem Ipsum Dolor sit amet, consectetur</a>
+                                            <p class="menu_clock">admin on Tuesday, 23 May 2017 18:49</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="k2_menu_item_card">
+                                        <div>
+
+                                            <div class="k2_menu_box">3</div>
+                                        </div>
+                                        <div class="k2_menu_item_card_content">
+                                            <a href="#" class="k2_menu_item_card_content_title">
+                                                Lorem Ipsum Dolor sit amet, consectetur</a>
+                                            <p class="menu_clock">admin on Tuesday, 23 May 2017 18:49</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="k2_menu_item_card">
+                                        <div>
+
+                                            <div class="k2_menu_box">4</div>
+                                        </div>
+                                        <div class="k2_menu_item_card_content">
+                                            <a href="#" class="k2_menu_item_card_content_title">
+
+                                                Oh my god. It very good!</a>
+                                            <p class="menu_clock">admin on Tuesday, 23 May 2017 18:48</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="k2_menu_item_card">
+                                        <div>
+
+                                            <div class="k2_menu_box">5</div>
+                                        </div>
+                                        <div class="k2_menu_item_card_content">
+                                            <a href="#" class="k2_menu_item_card_content_title">
+                                                Very good!</a>
+                                            <p class="menu_clock">admin on Tuesday, 23 May 2017 18:47</p>
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="K2_follow">
+                                <div class="first_follow"></div>
+                                <div class="second_follow">
+                                    <a
+                                        href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fdemo.smartaddons.com%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=smartaddons&tw_p=followbutton">
+                                        <i class="fab fa-twitter"></i>
+                                        Follow <b>@smartaddons</b>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="instagram">
+                                <div class="instagram_title">INSTAGRAM</div>
+                                <div class="instagram_text">
+                                    No Images or Users ID and Access Token incorrect
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!--Main Container Ends Here -->
+                </div>
+
+
+                <div style="margin-top: 50px;" class="news-letter">
+                    <h4>Sign Up For News Letter</h4>
+                    <p>Get all the best deals, sales and offers from the best online shopping store in UAE. Sign up now
+                        !</p>
+
+                    <div class="d-flex justify-content-center">
+                        <input type="text" placeholder="Your Email.....">
+                        <button><i class="fa fa-paper-plane"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="footer-bar">
+                    <a href="#">Home</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Help</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms Of Use</a>
+                </div>
+
+
+                <div class="social-text pt-3 pb-3">
+                    <div class="container-fluid">
+                        <div class="footer_social_icons">
+                            <a href="#" class="footer_social_icon">
+                                <i class="fab fa-twitter"></i>
+                                <p>Twitter</p>
+                            </a>
+                            <a href="#" class="footer_social_icon">
+                                <i class="fas fa-basketball-ball"></i>
+                                <p>Dribble</p>
+                            </a>
+
+                            <a href="#" class="footer_social_icon">
+                                <i class="fab fa-pinterest-p"></i>
+                                <p>Pinterest</p>
+                            </a>
+                            <a href="#" class="footer_social_icon">
+                                <i class="fab fa-soundcloud"></i>
+                                <p>Soundcloud</p>
+                            </a>
+                            <a href="#" class="footer_social_icon">
+                                <i class="fab fa-vimeo-v"></i>
+                                <p>Vimeo</p>
+                            </a>
+                            <a href="#" class="footer_social_icon">
+                                <i class="fab fa-facebook-f"></i>
+                                <p>Facebook</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="app-icons pt-2 pb-2">
+
+                    <p class="text-center mb-3 pt-3">©2017 Sj Expnews - Joomla Templates. All Rights Reserved. Designed
+                        by SmartAddons.Com</p>
+
+                    <div class="d-flex justify-content-center" id="apps">
+                        <img src="images/icon-appstore.png" class="img-fluid mx-3" alt="">
+                        <img src="images/icon-googleplay.png" class="img-fluid mx-3" alt="">
+                        <a href="#" class=" mx-3">Privacy Policy</a>
+                        <a href="#" class=" mx-3">Terms Of Service</a>
+                        <button>Share</button>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <!-- Row Ends Here -->
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- Pushy JS -->
+    <script src="js/pushy.min.js"></script>
+    <!-- custom-navbar js link -->
+    <script src="./js/index-custom-navbar.js"></script>
+    <!-- K2-listing js link -->
+    <script src="./js/K2-listing.js"></script>
+</body>
+
+</html>

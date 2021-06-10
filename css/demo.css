@@ -1,0 +1,67 @@
+html, body {
+  overflow-x: hidden;
+}
+
+/* Lists */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+#container {
+  position: relative;
+  padding: 10px 40px;
+  padding-top: 10px;
+}
+
+.mb_nav {
+  display: none;
+  padding: 0 !important;
+  width: 100%;
+  justify-content: flex-end;
+  background: -webkit-linear-gradient(bottom, rgb(43,43,43) 4%, rgb(59,59,59) 36%, rgb(79,79,79) 75%);
+}
+
+.mb_nav #black-navbar-button{
+  width: 40px;
+  height: max-content;
+  padding: 5px 0;
+  margin: 10px 30px !important;
+}
+
+/* Menu Button */
+.menu-btn {
+  padding: 10px;
+  width: 100px;
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  border: 0px;
+}
+
+.menu-btn:hover {
+  opacity: 0.6;
+}
+
+/* Header */
+.site-header {
+  position: fixed;
+  background: #000;
+  color: #FFF;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 9998;
+}
+
+/* Footer */
+.site-footer {
+  position: relative;
+  border-top: 1px solid #EEE;
+  color: #999;
+  padding: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}

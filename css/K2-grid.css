@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+.k2-grid {
+  padding: 0;
+  background-color: transparent;
+}
+
+.k2_grid_cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  /* grid-template-columns: repeat(3, 250px); */
+  justify-content: center;
+  grid-gap: 15px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.k2_grid_card {
+  flex: 1;
+  flex-basis: 150px;
+  padding: 20px;
+  background-color: white;
+}
+
+.k2_grid_card img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.k2_grid_card_title {
+  color: #999;
+  transition: all 0.2s linear;
+  font-size: 12px;
+  /* display: block; */
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.k2_grid_card_title:hover {
+  color: #dd0000;
+  text-decoration: none;
+}
+
+.k2_grid_card_subtitle {
+  text-decoration: none;
+  color: #222;
+  text-transform: capitalize;
+  font-size: 16px;
+  transition: all 0.2s linear;
+  font-weight: bold;
+}
+.k2_grid_card_subtitle:hover {
+  text-decoration: none;
+  color: #dd0000;
+}
+.k2_grid_card div {
+  margin-bottom: 10px;
+}
+.k2_grid_card div span {
+  color: #999;
+  transition: all 0.2s linear;
+  font-size: 12px;
+  /* display: block; */
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+/* k2_grid_pagination */
+.k2_grid_pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.k2_grid_pagination button {
+  width: 40px;
+  height: 40px;
+  outline: none;
+  margin: 5px;
+  background-color: white;
+  border-radius: 0;
+  border: 1px solid #ddd;
+  color: #898989;
+  font-size: 14px;
+  transition: all 0.2s linear;
+}
+
+.k2_grid_pagination button:hover,
+.k2_grid_pagination button.active {
+  background-color: #dd0000;
+  color: white;
+  border: 1px solid #dd0000;
+}

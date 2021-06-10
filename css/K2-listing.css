@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+/* ============================================================================= */
+/* ============================================================================= */
+/* ========================= bread_crump_section =============================== */
+/* ============================================================================= */
+/* ============================================================================= */
+
+.bread_crump_section {
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: url(../images/k2-listing-hero.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bread_crump_section_title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 0;
+  color: white;
+}
+
+.bread_crump {
+  display: flex;
+  align-items: center;
+}
+.bread_crump a {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+.bread_crump span {
+  margin: 0 8px;
+  color: white;
+}
+
+.bread_crump a:hover {
+  color: #dd0000;
+}
+
+/* ============================================================================= */
+/* ============================================================================= */
+/* ========================= k2_main_content =============================== */
+/* ============================================================================= */
+/* ============================================================================= */
+
+.k2_main_content {
+  display: flex;
+}
+
+/* K2_left_content ========= */
+
+.k2_left_content {
+  flex: 1;
+  background-color: white;
+  margin-right: 20px;
+  padding: 20px;
+  padding-top: 0;
+}
+.k2_card {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(223, 223, 223);
+  margin-top: 20px;
+}
+.k2_card img {
+  width: 300px;
+  height: 200px;
+  margin-right: 25px;
+  object-fit: cover;
+}
+
+.k2_card_content .header {
+  color: #999;
+  font-size: 12px;
+}
+
+.k2_card_title {
+  display: block;
+  margin-bottom: 20px;
+  color: #222;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.k2_card_title:hover {
+  text-decoration: none;
+  color: #dd0000;
+}
+
+.k2_card_disc {
+  margin: 0px 0px 10px;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(90, 90, 90);
+}
+
+/* K2_right_content ========= */
+
+.k2_right_content {
+  flex: 0.4;
+  background-color: transparent;
+  border-top: 2px solid #dd0000;
+}
+
+.k2_right_header {
+  display: flex;
+}
+
+.k2_header_btn {
+  flex: 1;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 0;
+  text-transform: uppercase;
+  color: #999999;
+  font-size: 18px;
+  border: 0 !important;
+  border-bottom: 1px solid #ebebeb;
+  outline: none !important;
+}
+
+.k2_right_header .k2_header_btn.active {
+  outline: none !important;
+  background-color: #dd0000 !important;
+  color: #fff;
+  border: 0 !important;
+  border-bottom: 1px solid #dd0000 !important;
+}
+
+.k2_menu_item {
+  display: none;
+  animation: fade-in 0.4s linear;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.k2_menu_item.active {
+  display: block;
+}
+
+.k2_menu {
+  background-color: white;
+  padding: 20px;
+}
+
+.k2_menu_item_card {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.k2_menu_item_card img {
+  width: 100px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.k2_menu_item_card_content_title {
+  font-size: 13px;
+  font-weight: bold;
+  color: #222222;
+  text-transform: capitalize;
+  line-height: 22px;
+  margin-bottom: 5px;
+  display: block;
+  /* margin-top: -4px; */
+  text-decoration: none;
+}
+
+.k2_menu_item_card_content_title:hover {
+  text-decoration: none;
+  color: #dd0000;
+}
+
+.menu_clock {
+  display: flex;
+  align-items: center;
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 0 !important;
+}
+
+.menu_clock i {
+  margin-right: 5px;
+}
+
+.k2_menu_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+/* K2_follow =========== */
+.K2_follow {
+  background-color: #44ccf6;
+  color: #fff;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first_follow {
+  height: 51px;
+  border-bottom: 1px solid #ddd;
+}
+
+.second_follow {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second_follow a {
+  height: 20px;
+  box-sizing: border-box;
+  padding: 1px 8px 1px 6px;
+  background-color: #1b95e0;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.second_follow a:hover {
+  background-color: #0c7abf;
+}
+
+.second_follow a i {
+  margin-right: 5px;
+}
+
+.second_follow a b {
+  margin-left: 3px;
+}
+
+/* Instagram ======== */
+.instagram_title {
+  margin: 0 0 20px;
+  text-align: inherit;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #dd0000;
+  padding: 10px 20px;
+}
+
+.instagram_text {
+  margin: 10px;
+  color: red;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .k2_main_content {
+    flex-direction: column;
+  }
+  .k2_left_content {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .k2_right_content {
+    flex: 1;
+  }
+}
+
+@media (max-width: 970px) {
+  .k2_card {
+    flex-direction: column;
+  }
+  .k2_card img {
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .k2_left_content {
+    padding: 10px;
+  }
+}
